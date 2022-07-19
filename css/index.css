@@ -1,0 +1,168 @@
+*{
+    box-sizing : "border-box"
+}
+
+body{
+    padding :  0;
+    background-image : url(file:///C:/Users/OLANREWAJU/Downloads/background-image.png);
+    background-size : cover;
+}
+
+header{
+    text-align : center;
+    margin-right : 10px;
+    font-weight : 700;
+    font-size : 40px;
+}
+
+.subheading {
+    font-size : 30px;
+}
+
+.container {
+    display : flex;
+    
+}
+
+.container > div{
+    width : 33.33%;
+    margin-right : 20px;
+}
+
+.grid1{
+      /* border : 1px solid rgba(0, 0, 0, 0.362); */
+    
+      padding : 10px;
+      color : black;
+      border-radius: 10px;
+      background : blueviolet;
+      margin-left : 30px;
+}
+
+.grid2{
+      /* border : 1px rgba(0, 0, 0, 0.362) solid; */
+    
+      padding : 10px;
+      border-radius : 10px;
+      color : black;
+      background : blueviolet
+      
+}
+
+.grid3{
+         /* border : 1px solid  rgba(0, 0, 0, 0.362); */
+         color : black;
+         padding : 10px;
+         border-radius : 10px;
+       
+         background : blueviolet
+}
+
+h2{
+    text-align : center;
+    border-bottom : 1px solid grey;
+    font-weight : 700;
+    font-size : 40px;
+    margin-right : 24px;
+}
+
+.text {
+    text-align : center;
+    font-size : 24px;
+    margin-right : 5px;
+}
+
+.about {
+       width : 100%;
+}
+
+.background {
+     width : 100%;
+}
+
+.contact{
+     width : 100%;
+}
+
+.text1{
+   text-align : center;
+   font-weight : 700;
+   font-size : 60px;
+}
+
+.text2{
+    text-align : center;
+    font-weight : 700;
+    font-size : 60px;
+}
+
+.text3{
+    text-align : center;
+    font-weight : 700;
+    font-size : 60px;
+}
+
+.modal::backdrop{
+    background : linear-gradient(45deg, red, yellow);
+    opacity : .2;
+}
+/* 
+:root {
+    
+} */
+
+
+/* .mark {
+    text-align : center;
+} */
+
+button{
+    padding : 20px;
+    background : green;
+    font-size : 20px;
+    border : none;
+    border-radius : 5px;
+    margin-top: 30px; 
+    margin-right : 20px;
+}
+
+
+
+button:active {
+    background : white;
+}
+
+.open{
+    margin-right : auto;
+}
+
+ .close{
+    display : flex ;
+    justify-content : center;
+    margin-right : 40px
+}
+
+@media(max-width : 600px){
+    .container {
+        
+        align-items : center;
+        flex-direction : column;
+    }
+     .container > div{
+            margin-bottom : 20px;
+            width : 300px;
+    } 
+ 
+     .grid3{
+        margin-left : 10px;
+       
+    } 
+    .grid2{
+        margin-left : 10px;
+    }
+
+    .grid1{
+        margin-left : 10px;
+    }
+ }
+
